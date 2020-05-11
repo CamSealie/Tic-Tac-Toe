@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="sylesheet" href="styles.css">
+</head>
+<body>
+    <div id="board">
+        <h1>Tic Tac Toe</h1>
+        <div class="row"> <!--top row-->
+            <div class="top_left"></div>
+            <div class="top_middle"></div>
+            <div class="top_right"></div>
+        </div>
+        <div class="row"> <!--second row-->
+          <div class="center_left"></div>
+          <div class="center_middle"></div>
+          <div class="center_right"></div>
+        
+        <div class="row"> <!--third row-->
+            <div class="bottom_left"></div>
+            <div class="bottom_middle"></div>
+            <div class="bottom_right"></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
